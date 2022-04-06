@@ -1,0 +1,62 @@
+body {
+	background-color: rgb(176,224,230)
+}
+.moi{
+	position: relative;
+	float: right;
+	top: 100px;
+	z-index: 3;
+	margin: 10 px;
+	width: 200px;
+}
+
+
+
+.texte {
+	background-color: black;
+	color: white;
+	position:relative;
+	top: 500px;
+	left: 30%;
+	z-index: 4;
+	width: 350px;
+	font-size: 20px
+
+	}
+.texte:hover{
+	z-index:3;
+	background-color: black;
+
+}
+
+a{
+	position: absolute;
+	left: 30%;
+	background-color: rgb(0,0,0);
+	padding: 10px;
+	color: rgb(255,255,255);
+	transition-duration: 0.4s;
+	z-index: 4;
+}
+
+a:hover{
+	background-color: #9c94b9; /* Green */
+	color: #fbbbd3;
+	
+}
+
+.insta{
+	margin-top:top;
+	top:30%
+	
+}
+
+.youtube{
+	margin-top:top;
+	top: 40%
+}
+
+.video{
+	margin-top:top;
+	top: 50%
+}
